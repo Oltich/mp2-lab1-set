@@ -23,11 +23,27 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+build/
+out/
+bin/
+lib/
+CMakeBuild/
 
 # Visual Studio 2015 cache/options directory
 .vs/
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+CMakeSettings.json
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
+
+#CMake Files
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -259,6 +275,7 @@ _Pvt_Extensions
 # Paket dependency manager
 .paket/paket.exe
 paket-files/
+
 
 # FAKE - F# Make
 .fake/
